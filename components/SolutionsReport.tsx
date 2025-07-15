@@ -58,7 +58,7 @@ export const SolutionsReport: React.FC<SolutionsReportProps> = ({ report, onRese
       <div className="text-center pt-6 border-t border-border-primary">
         <button
           onClick={onReset}
-          className="bg-accent-primary text-black px-8 py-3 rounded-full font-semibold hover:bg-accent-secondary transition-colors"
+          className="bg-accent-primary text-primary-text px-8 py-3 rounded-full font-semibold hover:bg-accent-secondary transition-colors"
         >
           Generar un Nuevo Informe
         </button>

@@ -55,9 +55,9 @@ export const ServiceNode = ({ position, service, onSelect, isSelected, icon: Ico
       >
         <icosahedronGeometry args={[0.7, 1]} />
         <meshStandardMaterial
-          color={isHovered || isSelected ? '#ddbea9' : '#cb997e'}
-          emissive={isHovered || isSelected ? '#ddbea9' : '#cb997e'}
-          emissiveIntensity={isHovered || isSelected ? 0.5 : 0.2}
+          color={isHovered || isSelected ? '#A2BFDE' : '#89A8CB'}
+          emissive={isHovered || isSelected ? '#A2BFDE' : '#89A8CB'}
+          emissiveIntensity={isHovered || isSelected ? 0.4 : 0.15}
           metalness={0.8}
           roughness={0.2}
           wireframe={!isSelected}

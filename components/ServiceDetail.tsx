@@ -41,7 +41,7 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ service, onClose }
                     <div className="mt-auto pt-8">
                        <button 
                          onClick={onClose} 
-                         className="bg-accent-primary text-black px-6 py-3 rounded-full font-semibold hover:bg-accent-secondary transition-colors"
+                         className="bg-accent-primary text-primary-text px-6 py-3 rounded-full font-semibold hover:bg-accent-secondary transition-colors"
                        >
                            Volver a Servicios
                        </button>

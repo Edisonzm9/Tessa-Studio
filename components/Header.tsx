@@ -21,7 +21,7 @@ export const Header = () => {
             ))}
           </nav>
           <div className="flex items-center gap-4">
-            <a href="#assistant" className="hidden md:inline-block bg-accent-primary text-black px-5 py-2 rounded-full font-semibold hover:bg-accent-secondary transition-colors duration-300">
+            <a href="#assistant" className="hidden md:inline-block bg-accent-primary text-primary-text px-5 py-2 rounded-full font-semibold hover:bg-accent-secondary transition-colors duration-300">
               Pide una Consulta
             </a>
           </div>

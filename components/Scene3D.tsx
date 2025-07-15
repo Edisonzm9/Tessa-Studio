@@ -48,12 +48,11 @@ export const Scene3D: React.FC = () => {
     
     // Paleta de colores base más amplia
     const colorPalette = [
-      '#cb997e', // Buff
-      '#ddbea9', // Desert Sand
-      '#ffe8d6', // Champagne Pink
-      '#b7b7a4', // Ash Gray
-      '#a5a58d', // Sage
-      '#6b705c', // Reseda Green
+      '#D6E3F8',
+      '#BCD7EF',
+      '#A2BFDE',
+      '#89A8CB',
+      '#708BA3',
     ];
     
     for (let i = 0; i < particleCount; i++) {

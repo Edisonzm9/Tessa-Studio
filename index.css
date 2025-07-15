@@ -3,12 +3,12 @@
 @theme {
   --color-background-primary: #000000;
   --color-background-secondary: #111111;
-  --color-text-primary: #ffe8d6;
-  --color-text-secondary: #b7b7a4;
-  --color-accent-primary: #cb997e;
-  --color-accent-secondary: #ddbea9;
-  --color-border-primary: #2d2d2d;
-  --color-border-secondary: #3d3d3d;
+  --color-text-primary: #FFFFFF;      /* White for high contrast */
+  --color-text-secondary: #D6E3F8;    /* Light Sky Blue */
+  --color-accent-primary: #89A8CB;    /* Slate Blue */
+  --color-accent-secondary: #A2BFDE;  /* Air Force Blue */
+  --color-border-primary: #708BA3;    /* Steel Blue */
+  --color-border-secondary: #A2BFDE; /* Air Force Blue */
 }
 
 @layer base {

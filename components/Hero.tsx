@@ -22,7 +22,7 @@ export const Hero = () => {
         </p>
         <a 
             href="#assistant"
-            className="mt-8 inline-flex items-center gap-2 bg-accent-primary text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-accent-secondary transition-transform duration-300 transform hover:scale-105 shadow-2xl shadow-accent-primary/40"
+            className="mt-8 inline-flex items-center gap-2 bg-accent-primary text-primary-text px-8 py-4 rounded-full font-bold text-lg hover:bg-accent-secondary transition-transform duration-300 transform hover:scale-105 shadow-2xl shadow-accent-primary/40"
         >
           Descubre tu Solución
           <ArrowRight className="w-6 h-6" />

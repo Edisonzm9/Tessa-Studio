@@ -116,13 +116,13 @@ export const SolutionsForm: React.FC<SolutionsFormProps> = ({ onSubmit }) => {
             ))}
         </div>
         {step < 2 && (
-          <button type="button" onClick={nextStep} className="flex items-center gap-2 px-6 py-3 rounded-full bg-accent-primary text-black font-semibold hover:bg-accent-secondary transition-colors">
+          <button type="button" onClick={nextStep} className="flex items-center gap-2 px-6 py-3 rounded-full bg-accent-primary text-primary-text font-semibold hover:bg-accent-secondary transition-colors">
             Siguiente
             <ArrowRight className="w-5 h-5" />
           </button>
         )}
         {step === 2 && (
-          <button type="submit" className="px-6 py-3 rounded-full bg-accent-primary text-black font-semibold hover:bg-accent-secondary transition-colors">
+          <button type="submit" className="px-6 py-3 rounded-full bg-accent-primary text-primary-text font-semibold hover:bg-accent-secondary transition-colors">
             Generar Informe
           </button>
         )}

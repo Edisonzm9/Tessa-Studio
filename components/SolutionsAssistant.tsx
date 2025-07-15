@@ -57,7 +57,7 @@ export const SolutionsAssistant = () => {
                 <p className="mt-2 text-text-secondary">{error}</p>
                 <button
                     onClick={handleReset}
-                    className="mt-6 bg-accent-primary text-black px-6 py-2 rounded-full font-semibold hover:bg-accent-secondary transition-colors"
+                    className="mt-6 bg-accent-primary text-primary-text px-6 py-2 rounded-full font-semibold hover:bg-accent-secondary transition-colors"
                 >
                     Intentar de Nuevo
                 </button>

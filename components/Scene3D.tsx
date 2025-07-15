@@ -66,18 +66,18 @@ export const Scene3D: React.FC = () => {
 
   useFrame((state, delta) => {
     if (points.current) {
-        points.current.rotation.y += delta * 0.05;
+        points.current.rotation.y += delta * 0.03;
 
         const positions = points.current.geometry.attributes.position.array as Float32Array;
-        const time = state.clock.getElapsedTime();
+        const time = state.clock.getElapsedTime() * 0.5;
 
         for (let i = 0; i < particleCount; i++) {
             const i3 = i * 3;
             const x = positions[i3];
             const y = positions[i3 + 1];
             
-            positions[i3+1] += Math.sin(time + x) * 0.005;
-            positions[i3+2] += Math.cos(time + y) * 0.005;
+            positions[i3+1] += Math.sin(time + x) * 0.002;
+            positions[i3+2] += Math.cos(time + y) * 0.002;
         }
 
         points.current.geometry.attributes.position.needsUpdate = true;

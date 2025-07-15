@@ -9,7 +9,7 @@ import { Footer } from './components/Footer';
 
 function App() {
   return (
-    <div className="dark bg-[--background-primary] min-h-screen text-[--text-primary] antialiased">
+    <div className="dark bg-background-primary min-h-screen text-text-primary antialiased">
       <Header />
       <main>
         <Hero />
